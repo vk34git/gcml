@@ -8,7 +8,7 @@
     pip install setuptools
     python setup.py install
     
-    python -m trainer.task -v \
+    python3 -m pdb -m trainer.task -v \
     --model_param_kernel=linear \
     --model_dir="gs://"$BUCKET_NAME"/titanic/trial" \
     --data_format=bigquery \
