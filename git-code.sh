@@ -1,4 +1,4 @@
-git remote add gcml-remote https://github.com/vk34git/gcml
+git remote add gcml-remote https://vk34@yahoo.com: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@github.com/vk34git/gcml
 git config --global user.email "vk34@yahoo.com"
 git config --global user.name "vas"
 git config --global user.password "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"
