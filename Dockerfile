@@ -1,5 +1,5 @@
 FROM gcr.io/deeplearning-platform-release/tf2-gpu.2-5
-WOEKDIR /
+WORKDIR /
 #Installs hypertune library
 RUN pip install cloudml-hypertune
 #Copies the trainer code to the docker image.
